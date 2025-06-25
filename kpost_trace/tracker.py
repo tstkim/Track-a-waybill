@@ -6,7 +6,7 @@ import requests
 import xmltodict
 import pandas as pd
 
-BASE_URL = "http://biz.epost.go.kr/KpostPortal/openapi"
+BASE_URL = "https://biz.epost.go.kr/KpostPortal/openapi"
 
 
 def track(
