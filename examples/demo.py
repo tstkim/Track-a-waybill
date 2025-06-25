@@ -1,5 +1,10 @@
-"""Demo script for kpost_trace module."""
+"""kpost_trace 모듈 사용 예시 스크립트."""
 import os
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
 from kpost_trace.tracker import track, to_dataframe
 
 
